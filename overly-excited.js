@@ -15,9 +15,11 @@ function addExcitement (theWordArray) {
   /* Add an ! after every third word */
     var n = i + 1
     if(n % 3 === 0){
-    newSentence += "!";  
+      var x = "!";
+
+      newSentence += x.repeat(n/3);  
     } 
-      console.log(newSentence);
+    console.log(newSentence);
   }
 }
 
